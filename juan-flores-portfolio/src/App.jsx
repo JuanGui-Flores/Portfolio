@@ -134,8 +134,9 @@ function Header() {
       >
         <img
           className="brand-photo"
-          src="public/juangui.png"
+          src="/juangui.png"
           alt="Juan Guillermo Flores"
+            decoding="async"
         />
         <span>
           Juan Guillermo Flores<span className="blue">.</span>
@@ -631,8 +632,8 @@ function Profile() {
           <div className="profile-photo-wrap reveal">
             <img
               className="profile-photo"
-              src="public/juangui.png"
-              alt="Retrato de Juan Guillermo Flores, desarrollador de software en San Juan, Argentina"
+              src="/juangui.png"
+              alt="Juan Guillermo Flores, desarrollador de software en San Juan, Argentina"
               loading="lazy"
               decoding="async"
             />
